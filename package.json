@@ -1,11 +1,11 @@
 {
   "name": "bootstrap-switch-button",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Brent Ely",
     "url": "https://github.com/gitbrent/"
   },
-  "description": "Bootstrap Switch Button is a bootstrap 4 plugin that converts checkboxes into switch button toggles.",
+  "description": "Bootstrap Switch Button is a bootstrap 5 plugin that converts checkboxes into switch button toggles.",
   "homepage": "https://gitbrent.github.io/bootstrap-switch-button/",
   "license": "MIT",
   "main": "dist/bootstrap-switch-button.min.js",
@@ -34,12 +34,12 @@
   },
   "keywords": [
     "bootstrap",
-    "bootstrap4",
-    "bootstrap-4",
-    "bootstrap 4",
-    "bootstrap 4 checkbox",
-    "bootstrap 4 switch",
-    "bootstrap 4 toggle",
+    "bootstrap5",
+    "bootstrap-5",
+    "bootstrap 5",
+    "bootstrap 5 checkbox",
+    "bootstrap 5 switch",
+    "bootstrap 5 toggle",
     "bootstrap-checkbox",
     "bootstrap-switch",
     "bootstrap-switch-button",

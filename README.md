@@ -1,4 +1,4 @@
-[![MIT Licence](https://img.shields.io/github/license/gitbrent/bootstrap-switch-button.svg)](https://opensource.org/licenses/mit-license.php) [![Bootstrap 4.3.1](https://img.shields.io/badge/bootstrap-4.3.1-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1) [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap-switch-button/badge.svg)](https://snyk.io/test/npm/bootstrap-switch-button) [![Package Quality](https://npm.packagequality.com/shield/bootstrap-switch-button.svg)](https://packagequality.com/#?package=bootstrap-switch-button) [![JSDelivr Badge](https://data.jsdelivr.com/v1/package/gh/gitbrent/bootstrap-switch-button/badge)](https://www.jsdelivr.com/package/gh/gitbrent/bootstrap-switch-button)
+[![MIT Licence](https://img.shields.io/github/license/gitbrent/bootstrap-switch-button.svg)](https://opensource.org/licenses/mit-license.php) [![Bootstrap 4.3.1](https://img.shields.io/badge/bootstrap-4.3.1-green.svg?style=flat-square)](https://getbootstrap.com/docs/5.0) [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap-switch-button/badge.svg)](https://snyk.io/test/npm/bootstrap-switch-button) [![Package Quality](https://npm.packagequality.com/shield/bootstrap-switch-button.svg)](https://packagequality.com/#?package=bootstrap-switch-button) [![JSDelivr Badge](https://data.jsdelivr.com/v1/package/gh/gitbrent/bootstrap-switch-button/badge)](https://www.jsdelivr.com/package/gh/gitbrent/bootstrap-switch-button)
 
 # Bootstrap Switch Button
 
@@ -10,9 +10,9 @@
 
 | Project                                                                                    | Description                                             |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| [bootstrap4-toggle](https://github.com/gitbrent/bootstrap4-toggle)                         | Supports bootstrap4 (requires jQuery)                   |
-| [bootstrap-switch-button](https://github.com/gitbrent/bootstrap-switch-button)             | Supports bootstrap4+ (ES6 class, no dependencies)       |
-| [bootstrap-switch-button-react](https://github.com/gitbrent/bootstrap-switch-button-react) | Supports bootstrap4+ (React component, no dependencies) |
+| [bootstrap4-toggle](https://github.com/gitbrent/bootstrap4-toggle)                         | Supports bootstrap 4 (requires jQuery)                   |
+| [bootstrap-switch-button](https://github.com/gitbrent/bootstrap-switch-button)             | Supports bootstrap 5 (ES6 class, no dependencies)       |
+| [bootstrap-switch-button-react](https://github.com/gitbrent/bootstrap-switch-button-react) | Supports bootstrap 4 (React component, no dependencies) |
 
 # Demos
 
@@ -26,10 +26,10 @@
 
 ```html
 <link
-  href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/css/bootstrap-switch-button.min.css"
+  href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.2.0/css/bootstrap-switch-button.min.css"
   rel="stylesheet"
 />
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/dist/bootstrap-switch-button.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.2.0/dist/bootstrap-switch-button.min.js"></script>
 ```
 
 ## Download
@@ -52,10 +52,10 @@ yarn add bootstrap-switch-button
 
 ## Initialize With HTML
 
-Simply add `data-toggle="switchbutton"` to automatically convert a plain checkbox into a bootstrap 4 switch button.
+Simply add `data-bs-toggle="switchbutton"` to automatically convert a plain checkbox into a bootstrap 5 switch button.
 
 ```html
-<input id="chkSwitch" type="checkbox" data-toggle="switchbutton" />
+<input id="chkSwitch" type="checkbox" data-bs-toggle="switchbutton" />
 ```
 
 ## Initialize With Code
@@ -83,7 +83,7 @@ EX: Initialize id `chkSwitch` with a single line of JavaScript.
 ```html
 <input
   type="checkbox"
-  data-toggle="switchbutton"
+  data-bs-toggle="switchbutton"
   data-onlabel="Enabled"
   data-offlabel="Disabled"
 />
@@ -114,7 +114,7 @@ EX: Initialize id `chkSwitch` with a single line of JavaScript.
 Methods can be used to control switch buttons directly.
 
 ```html
-<input id="switch-demo" type="checkbox" data-toggle="switchbutton" />
+<input id="switch-demo" type="checkbox" data-bs-toggle="switchbutton" />
 ```
 
 | Method     | Example                                     | Description                                       |
@@ -136,7 +136,7 @@ Note All events are propagated to and from input element to the switch button.
 You should listen to events from the `<input type="checkbox">` directly rather than look for custom events.
 
 ```html
-<input id="switch-event" type="checkbox" data-toggle="switchbutton" />
+<input id="switch-event" type="checkbox" data-bs-toggle="switchbutton" />
 <div id="console-event"></div>
 <script>
   $(function() {
@@ -152,7 +152,7 @@ You should listen to events from the `<input type="checkbox">` directly rather t
 This also means that using the API or Input to trigger events will work both ways.
 
 ```html
-<input id="switch-trigger" type="checkbox" data-toggle="switchbutton" />
+<input id="switch-trigger" type="checkbox" data-bs-toggle="switchbutton" />
 <button class="btn btn-success" onclick="toggleApiOn()">On by API</button>
 <button class="btn btn-danger" onclick="toggleApiOff()">Off by API</button>
 <button class="btn btn-success" onclick="toggleInpOn()">On by Input</button>

@@ -228,7 +228,7 @@
 	 */
 	if (typeof window !== 'undefined')
 		window.onload = function() {
-			document.querySelectorAll('input[type=checkbox][data-toggle="switchbutton"]').forEach(function(ele) {
+			document.querySelectorAll('input[type=checkbox][data-bs-toggle="switchbutton"]').forEach(function(ele) {
 				ele.switchButton();
 			});
 		};

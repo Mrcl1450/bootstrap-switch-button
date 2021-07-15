@@ -38,7 +38,7 @@
 		function appStartup() {
 			// Init all switchbuttons to ensure they're loaded
 			document
-			.querySelectorAll('input[type=checkbox][data-toggle="switchbutton"]')
+			.querySelectorAll('input[type=checkbox][data-bs-toggle="switchbutton"]')
 			.forEach(function(ele){
 				ele.switchButton();
 			});
@@ -78,7 +78,7 @@
 	<div id="size-lg" class="container border p-3 mb-4">
 		<div class="row mb-3">
 			<div class="col px-5 py-3">
-				<input type="checkbox" data-toggle="switchbutton" data-style="w-100" data-size="lg" checked>
+				<input type="checkbox" data-bs-toggle="switchbutton" data-style="w-100" data-size="lg" checked>
 			</div>
 			<div class="col px-5 py-3">
 				<button class="btn btn-lg btn-info w-100">Button</button>
@@ -106,7 +106,7 @@
 	<div id="size-md" class="container border p-3 mb-4">
 		<div class="row mb-3">
 			<div class="col px-5 py-3">
-				<input type="checkbox" data-toggle="switchbutton" data-style="w-100" checked>
+				<input type="checkbox" data-bs-toggle="switchbutton" data-style="w-100" checked>
 			</div>
 			<div class="col px-5 py-3">
 				<button class="btn btn-info w-100">Button</button>
@@ -134,7 +134,7 @@
 	<div id="size-sm" class="container border p-3 mb-4">
 		<div class="row mb-3">
 			<div class="col px-5 py-3">
-				<input type="checkbox" data-toggle="switchbutton" data-style="w-100" data-size="sm" checked>
+				<input type="checkbox" data-bs-toggle="switchbutton" data-style="w-100" data-size="sm" checked>
 			</div>
 			<div class="col px-5 py-3">
 				<button class="btn btn-sm btn-info w-100">Button</button>

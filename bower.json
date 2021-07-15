@@ -1,13 +1,13 @@
 {
   "name": "bootstrap-switch-button",
   "description": "Bootstrap Switch Button is a Bootstrap plugin/widget that converts checkboxes into switch buttons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "bootstrap",
-    "bootstrap4",
-    "bootstrap 4",
-    "bootstrap 4 switch",
-    "bootstrap 4 toggle",
+    "bootstrap5",
+    "bootstrap 5",
+    "bootstrap 5 switch",
+    "bootstrap 5 toggle",
     "bootstrap-switch",
     "bootstrap-toggle",
     "bootstrap-switch-button",
